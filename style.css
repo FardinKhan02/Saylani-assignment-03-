@@ -1,0 +1,382 @@
+
+.header{
+    display: flex;
+    height: 50px;
+    position: relative;
+    background-color: blue;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.logos{
+    padding: 12px;
+    margin-left: 105px;
+    
+}
+
+.logo-img{
+    height: 20px;
+    width: 22px;
+    border-radius: 7px;
+    margin-left: 15px;
+}
+
+.header-content{
+    flex-direction: row;
+    color: white;
+    align-items: center;
+}
+
+.header-bullets{
+    padding: 15px;
+    padding-right: 100px;
+}
+
+.bullet-btn{
+    background-color: white;
+    padding: 3px;
+}
+
+.list-main{
+    background-color: whitesmoke;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+     height: 90px;
+     width: 100%;
+     justify-content: space-between;
+     flex-direction: row;    
+}
+
+.saylani-logo{
+    padding: 10px;
+    padding-left: 130px;
+}
+
+.saylani-logo-img{
+    height: 50px;
+}
+
+.dropdown-list{
+  padding: 20px;
+  padding-right: 100px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-size: 13px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: blueviolet;
+}
+
+.img-container{
+position: static;
+}
+
+.content-Img{
+
+    height: 500px;
+    width: 100%;
+}
+
+.content-headlines{
+    padding: 10px;
+}
+
+.headlines{
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 40px;
+}
+
+.marq { 
+        padding-top:5px; 
+        padding-bottom:2px; 
+    } 
+
+.marq-bulettin { 
+        font-size:16px; 
+        color:white; 
+        padding-bottom:2px; 
+} 
+
+.content-introduction{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;    
+}
+
+.intro-img{
+    width: 250px;   
+    height: 60px;
+}
+
+.intro-content-para{
+    padding-left: 150px;
+    line-height: 1.7em;
+    text-align: justify;
+    justify-content: center;
+    padding-right: 150px;
+}
+
+.val-content{
+    display: flex;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-right: 50px;
+    /* align-items: center; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    height: 200px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: blue;
+}
+
+.val-sticker{
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 180px;
+    
+    color: white;
+}
+
+.val-sticker-img{
+    height: 30px;
+    width: 40px;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+.val-sticker-num{
+    font-size: 50px;
+    padding-left: 35px;   
+}
+
+.val-sticker-con{
+    padding-left: 20px;
+}
+
+.categories-card{
+    display: flex;
+    height: 500px;
+    background-color: whitesmoke;
+}
+
+.category-snap-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    background-color: whitesmoke;
+}
+
+.category-snap{
+    height: 80px;
+    width: 300px;
+}
+
+.cards-container{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cards{
+    width: 350px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    background-color: white; 
+}
+
+.activity{
+    padding-left: 130px;
+    width: 70px;
+    height: 80px;
+}
+
+.activity-content{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 90px;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.projects-content{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.pro-container1{
+    width: 850px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pro-container2{
+    width: 500px;
+    height: 320px;
+    }
+
+.event-header{
+    color: blueviolet;
+    font-size: 25px; 
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 100px; 
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 80px;
+    width: 700px;
+    height: 200px;
+    padding-right: 30px;
+}
+
+.project-component{
+    width: 320px;
+    flex-direction: column;
+    justify-content: center;
+    height: 60px;   
+    background-color: whitesmoke;
+}
+
+.event-card{
+    width: 300px;
+    padding-left: 90px;
+    line-height: 1.6em;
+    color: cadetblue;
+}
+
+.gallery{
+    padding-top: 30px;
+    width: 1200px;
+    height: 450px;
+}
+
+.gallery-snip{
+    width: 290px;
+    height: 95px;
+}
+
+.gallery-container{
+    padding-left: 80px;
+    padding-top: 100px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 300px;
+    
+}
+
+.gallery-images{
+    width: 205px;
+    height: 150px;
+}
+
+.footer{
+    height: 350px;
+    background-color: rgb(59, 8, 40);
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-content{
+    width: 500px;
+    height: 300px;
+}
+
+.contact{
+    padding-top: 70px;
+    padding-left: 100px;
+    color: #bbb;
+}
+
+.contact-list{
+    padding-left: 110px;
+    display: flex;
+    flex-direction: column;
+    color: #bbb;
+    
+}
+
+.footer-mid-content{
+    color: #bbb;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+.footer-logos{
+    padding-left: 40px;
+}
+
+.footer-logo-img{
+    height: 20px;
+    width: 22px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.footer-copyright{
+    height: 40px;
+    font-size: 14px;
+    padding-left: 100px;
+    padding-top: 12px;
+    background-color: blueviolet;
+    color: white;
+}
